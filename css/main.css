@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+header{
+    background-image: url(../imagenes/bradcam.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: white;
+}
+
+#main-container header #menu {
+    padding: 50px 0px;
+}
+
+header #menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+header #menu ul li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+header #menu ul li a{
+    color: white;
+    text-decoration: none;}
+
+header main p a:hover{
+    text-decoration-color: white;
+   color: white;
+   text-decoration:underline;
+}
+
+header #menu ul li a {
+    text-decoration:underline;
+    
+}
+
+header #menu ul #logo{
+    margin-right: 40px;
+    margin-left: 100px;
+}
+
+
+#main-container header main{
+    margin: 0 auto;
+    width: 1000px;
+    
+}
+
+#main-container header main div{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+#main-container header main .text h1{
+    font-size: 60px;
+    
+    
+} 
+
+#main-container header main .text p{
+    font-size: 24px;
+    padding: 20px 0px;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 24px 25px;
+    margin: 40px 0px;
+}
+
+button:hover{
+    background-color:teal;
+}
+
+#main-container header main .image{
+    text-align: right;
+    width: 505px;
+}
+
+/***/
+
+.layout{
+    width: 1100px;
+    margin: 250px auto;
+
+}
+
+.layout div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.layout h3{
+    font-size: 48x;
+    padding: 25px 0px;
+}
+
+.layout p{
+    padding: 25px 0px;
+    line-height: 32px;
+}
+
+.layout-left .text{
+    width: 500px;
+}
+
+.layout-left .image{
+    width: 500px;
+    text-align: right;
+}
+
+.layout-right .text{
+    width: 500px;
+}
+
+.layout-right .image{
+    width: 500px;
+    text-align: center;
+}
+
+footer{
+    background-color: turquoise;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+}

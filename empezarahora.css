@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imagenes/bradcam.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 35vh;
+    margin-top: 20px;
+}
+
+body h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 30px;
+    color: white;
+}
+
+body p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.formsregi{
+    width: 400px;
+    background: rgb(91, 156, 241);
+    padding: 30px;
+    margin: auto;
+    margin-top: 230px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.formsregi h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: rgb(91, 156, 241) ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(46, 92, 153) ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.formsregi p{
+    height: 40px;
+    text-align:start;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.formsregi a.hover{
+    text-decoration-color: white;
+   color: white;
+   text-decoration:underline;
+   
+}
+
+.formsregi .enviar{
+    margin-top: 80px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.formsregi  .enviar:hover{
+    text-decoration-color: white;
+    color: white;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(98, 197, 255);
+    padding: 50px 30px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
